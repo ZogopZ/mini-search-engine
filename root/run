@@ -1,0 +1,17 @@
+#!/bin/bash
+
+echo "****************MAKE CLEAN****************"
+make clean -C ..
+echo ""
+echo ""
+echo ""
+echo ""
+echo "*******************MAKE*******************"
+make -C ..
+echo ""
+echo ""
+echo ""
+echo ""
+echo "******************RUNNING*****************"
+#valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes --trace-children=yes ./myfind -h 1 -d Records1000.bin -p tone -s
+./myfind -h 2 -d Records100000.bin -p stone -s
