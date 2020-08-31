@@ -12,7 +12,8 @@ splitNmerge.c, splitNmerge.h
 leaf.h
 
 The parent directory of this application also includes a makefile which compiles 
-all other makefiles in the above directories as well as this readme file.
+all other makefiles in the above directories as well as this readme file and 
+a tar file containing binary input data files.
 
 # Makefiles - How to compile
 Open a terminal in the parent directory and type:
@@ -31,7 +32,7 @@ This removes all executable files, all object files and two aiding files
 # How to run
 **The application must be executed from within root directory** and the flags 
 can be given in any order. Record files Records100.bin, …, Records1000000.bin 
-are zipped in file data4proj2.tar.gz in the parent directory.
+are zipped in file data.tar.gz in the parent directory.
 
 To do some test runs of the application place a record file in root directory 
 then open a terminal in the same directory and type:
