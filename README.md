@@ -1,19 +1,5 @@
-# mini-search-engine-app
-A multi process shell application that simulates a mini search engine.
-
-# General – Organization
-The application is organized in the following directories and files:
-
-- root directory &rarr; makefile, main.c, cli_utils.c, cli_utils.h, root.c, 
-root.h, checker.c, checker.h
-- splitNmerge directory &rarr; makefile, main.c, cli_utils.c, cli_utils.h, 
-splitNmerge.c, splitNmerge.h
-- leaves directory &rarr; makefile, main.c, cli_utils.c, cli_utils.h, leaf.c, 
-leaf.h
-
-The parent directory of this application also includes a makefile which compiles 
-all other makefiles in the above directories as well as this readme file and 
-a tar file containing binary input data files.
+# mini-search-engine
+A multi process application that simulates a mini search engine.
 
 # Makefiles - How to compile
 Open a terminal in the parent directory and type:
